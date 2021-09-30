@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Bonheur+Royale&family=Fleur+De+Leah&family=Grey+Qo&family=Merienda&family=Open+Sans&family=Roboto&family=Stick+No+Bills:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.section1 {
+  margin: 0px;
+  height: 100vh;
+  width: 100%;
+  background-image: url(5.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section1 .navbar {
+  width: 100%;
+}
+
+.section1 .navlist ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 23px;
+  width: 100%;
+}
+
+.section1 .navlist ul .item {
+  padding-top: 20px;
+  font-family: 'Ubuntu', sans-serif;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+}
+
+.section1 .navlist ul .item a {
+  padding: 5px;
+  color: black;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+}
+
+.section1 .navlist ul .active {
+  margin-top: 20px;
+  color: white;
+}
+
+.section1 .navlist ul .active a {
+  border-radius: 5px;
+  padding: 5px;
+  background-color: black;
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.section1 .navlist ul .logo {
+  margin-top: -40px;
+}
+
+.section1 .navlist ul li a {
+  text-decoration: none;
+}
+
+.section1 .navlist ul li a .img {
+  height: 120px;
+  width: 125px;
+}
+
+.section1 .navlist ul li a .img img {
+  height: 155px;
+  width: 155px;
+}
+
+.content {
+  width: 100%;
+  position: absolute;
+  top: 35%;
+  height: 100%;
+  margin: 20px;
+}
+
+.content .banner .heading h1 {
+  width: 500px;
+  font-size: 50px;
+  font-family: 'Bonheur Royale', cursive;
+}
+
+.content .banner .heading h1 span {
+  color: #585757;
+}
+
+.content .banner .heading h2 {
+  width: 450px;
+  font-size: 40px;
+  font-family: 'Bonheur Royale', cursive;
+}
+
+.content .banner .heading h2 span {
+  color: #585757;
+}
+
+.content .banner .heading p {
+  font-family: 'Ubuntu', sans-serif;
+  width: 500px;
+}
+
+.content .banner .button .button1 {
+  background-color: black;
+  color: white;
+}
+
+.content .banner .button button {
+  border: 1px solid black;
+  padding: 8px;
+  margin-top: 10px;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+  -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.content .banner i {
+  color: black;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.button1:hover {
+  background-color: black;
+  color: white;
+}
+
+.button2:hover {
+  background-color: black;
+  color: white;
+}
+
+.section2 {
+  height: 400px;
+  width: 100%;
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  overflow: hidden;
+}
+
+.section2 .card {
+  height: 360px;
+  width: 250px;
+  -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  font-family: 'Ubuntu', sans-serif;
+  border-radius: 15px;
+  overflow: hidden;
+  background-color: black;
+}
+
+.section2 .card .img {
+  width: 100%;
+  height: 170px;
+}
+
+.section2 .card .img img {
+  width: 100%;
+  height: 100%;
+}
+
+.section2 .card .name {
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+.section2 .card .name button {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+/*# sourceMappingURL=style.css.map */

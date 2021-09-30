@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Bonheur+Royale&family=Fleur+De+Leah&family=Grey+Qo&family=Merienda&family=Open+Sans&family=Roboto&family=Stick+No+Bills:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+// font-family: 'Bonheur Royale', cursive;
+//font-family: 'Grey Qo', cursive;
+//font-family: 'Merienda', cursive;
+//font-family: 'Open Sans', sans-serif;
+//font-family: 'Roboto', sans-serif;
+//font-family: 'Stick No Bills', sans-serif;
+//font-family: 'Fleur De Leah', cursive;
+//font-family: 'Ubuntu', sans-serif;
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+// body{
+//     background-image: url(5.jpg);
+//     background-repeat: no-repeat;
+//     background-size: cover;
+//     background-attachment: fixed;
+// }
+
+.section1 {
+    margin: 0px;
+    height: 100vh;
+    width: 100%;
+    background-image: url(5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    // background-attachment: fixed;
+
+    .navbar {
+        width: 100%;
+
+
+    }
+
+    .navlist {
+        ul {
+            list-style: none;
+            display: flex;
+            justify-content: space-around;
+            margin-top: 23px;
+            width: 100%;
+
+
+            .item {
+                padding-top: 20px;
+                font-family: 'Ubuntu', sans-serif;
+                transition: 0.8s;
+
+                a {
+                    padding: 5px;
+                    color: black;
+                    transition: 0.8s;
+                }
+            }
+
+            .active {
+                margin-top: 20px;
+                color: white;
+
+
+                a {
+                    border-radius: 5px;
+                    padding: 5px;
+                    background-color: black;
+                    color: white;
+                    font-family: 'Ubuntu', sans-serif;
+                }
+
+            }
+
+            .logo {
+
+                margin-top: -40px;
+            }
+
+            li {
+
+
+                a {
+                    text-decoration: none;
+
+
+
+                    .img {
+                        height: 120px;
+                        width: 125px;
+
+
+                        img {
+
+                            height: 155px;
+                            width: 155px;
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+}
+
+.content {
+    width: 100%;
+    position: absolute;
+    top: 35%;
+    height: 100%;
+    margin: 20px;
+
+    .banner {
+
+        .heading {
+
+            h1 {
+                width: 500px;
+                font-size: 50px;
+                font-family: 'Bonheur Royale', cursive;
+
+                span {
+                    color: rgb(88, 87, 87);
+                }
+
+            }
+
+            h2 {
+                width: 450px;
+                font-size: 40px;
+                font-family: 'Bonheur Royale', cursive;
+
+                span {
+                    color: rgb(88, 87, 87);
+                }
+
+            }
+
+            p {
+                font-family: 'Ubuntu', sans-serif;
+                width: 500px;
+            }
+
+        }
+
+        .button {
+            .button1 {
+                background-color: black;
+                color: white;
+            }
+
+
+            button {
+
+                border: 1px solid black;
+                padding: 8px;
+                margin-top: 10px;
+                transition: 0.7s;
+                box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+
+            }
+
+        }
+
+        i {
+            color: black;
+            margin-top: 10px;
+            padding: 10px;
+        }
+
+    }
+
+}
+
+
+//Hover Section
+.button1:hover {
+    background-color: black;
+    color: white;
+}
+
+.button2:hover {
+    background-color: black;
+    color: white;
+}
+
+//Section 2
+
+.section2 {
+    height: 400px;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden;
+
+    .card {
+        height: 360px;
+        width: 250px;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+        font-family: 'Ubuntu', sans-serif;
+        border-radius:15px;
+        overflow: hidden ;
+        background-color: black;
+
+        .img{
+            width: 100%;
+            height: 170px;
+           
+
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .name{
+            padding: 10px;
+            text-align: center;
+            color: white;
+
+            button{
+                margin-top: 10px;
+                margin-bottom: 10px;
+            }
+        }
+
+    
+
+    }
+
+}
